@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.attribution {
+  font-size: 10px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+.d-flex {
+  margin: 20vh auto;
+  width: 80%;
+}
+
+.button1 {
+  border-radius: 15px;
+  border-color: white;
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  font-size: 10px;
+  font-weight: 500;
+  padding: 7px 15px;
+  margin-top: 30px;
+}
+.button2 {
+  border-radius: 15px;
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  font-size: 10px;
+  font-weight: 500;
+  padding: 7px 15px;
+  margin-top: 30px;
+}
+.button3 {
+  border-radius: 15px;
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  font-size: 10px;
+  font-weight: 500;
+  padding: 7px 15px;
+  margin-top: 30px;
+}
+
+.button1:hover {
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 7px 15px;
+  margin-top: 30px;
+}
+
+.button2:hover {
+  border-radius: 15px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 7px 15px;
+  margin-top: 30px;
+}
+
+.button3:hover {
+  border-radius: 15px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 7px 15px;
+  margin-top: 30px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: x-small;
+  padding-top: 10px;
+}
+div h1 {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-size: larger;
+  font-weight: 700;
+}
+div img {
+  width: 30%;
+  padding-bottom: 20px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+  .d-flex {
+    width: 60%;
+    border: 10px;
+    margin-bottom: 20px;
+  }
+  .sedan {
+    border-radius: 10px 10px 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media only screen and (min-width: 968px) {
+  .d-flex {
+    width: 50%;
+  }
+}

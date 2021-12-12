@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ruckyTheWebDesigner/3-column-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://ruckythewebdesigner.github.io/3-column-preview-card-component-main/)
+- Solution URL: [https://github.com/ruckyTheWebDesigner/3-column-preview-card-component-main]
+- Live Site URL: [https://ruckythewebdesigner.github.io/3-column-preview-card-component-main/]
 
 ## My process
 
@@ -46,7 +46,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
